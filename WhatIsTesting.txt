@@ -1,0 +1,32 @@
+Testing is the action of verifing if something work as intended.
+
+There are 2 types of testing: Manual & Automated
+
+    Manual testing is tedious and cumbersome because you have to test all the features. You have to test all possible scenarious. It is incomplete and you could the way that you test the features.
+
+    Automated testing -> Write some code which tests your code (in development stage of the project)
+    It represent an initial effort, but no effort after that. You can test everything in the same way every time.
+    You can add as many scenarious as you want.
+
+    What are unit tests ? 
+
+        What are units? Smallest bulding block (functions, or classes or a component);
+            In most cases a unit is a functions
+        
+        So unit testing is the action of verifing all the units of an application.
+        With the help of unit testing we can avoid endless amounts of manual test and we can cover more units from the application.
+        Adding unit testing to the project you will be obligated to write clean code.
+
+    Integration testing and E2E testing.
+
+    Integration testsing -> test the combination of building block, verifing if the building blocks work together
+    Even if all units work standalone, the combination could fail
+
+    E2E testing -> Test entire flows and application features. Test the actual things real users would do.
+
+
+    Test-driven development (TDD)
+
+        1. Write failing test;
+        2. Implement the code that the test succeed;
+        3. Refactor;
